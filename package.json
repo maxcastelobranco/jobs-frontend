@@ -5,18 +5,37 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db": "node ./server/index.js"
   },
   "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "^11.5.0",
+    "@emotion/server": "latest",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.1.0",
+    "@mui/material": "latest",
+    "@mui/system": "^5.1.0",
+    "axios": "^0.24.0",
+    "clsx": "latest",
+    "express": "^4.17.1",
+    "framer-motion": "^5.2.1",
     "next": "12.0.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.19.1",
+    "sass": "^1.43.4",
+    "swr": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "16.11.6",
     "@types/react": "17.0.34",
-    "eslint": "7",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "eslint": "7.32.0",
     "eslint-config-next": "12.0.3",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.1",
     "typescript": "4.4.4"
   }
 }
